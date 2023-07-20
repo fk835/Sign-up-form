@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('src/Norse-Bold.otf') format('opentype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Norse-Bold', sans-serif;
+    background: #E4EAF0;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+/* this is the first image section on the right side */
+.image-section {
+    flex-basis: 50%;
+    position: relative;
+    display: inline-block;
+}
+
+.image {
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+}
+
+/* right-content section of the page */
+.content-section {
+    flex-basis: 60%;
+    padding: 40px;
+    background-color: ;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+/*the only form on the right side of the web page */
+.first-form {
+    padding: 0px 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: normal;    
+}
+
+.input {
+
+
+
+}
+
+legend {
+    display: inline-block;
+}
+
+/* this is the logo row on the picture */
+.logo-row {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* flex-wrap: ; */
+    padding: 0px 180px;
+
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    color: aliceblue;
+}
